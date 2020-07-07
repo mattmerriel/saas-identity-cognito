@@ -150,9 +150,9 @@ Resources:
                 - sudo apt-get install python-software-properties -y
                 - sudo apt-add-repository ppa:brightbox/ruby-ng -y
                 - sudo apt-get update
-                - sudo apt-get install ruby2.2 -y
-                - sudo apt-get install ruby2.2-dev -y
-                - sudo apt-get update && sudo apt-get install -y ruby ruby-dev && apt-get clean && sudo gem2.2 install compass
+                - sudo apt-get install ruby2.3 -y
+                - sudo apt-get install ruby2.3-dev -y
+                - sudo apt-get update && sudo apt-get install -y ruby ruby-dev && apt-get clean && sudo gem2.3 install compass
                 - sudo npm install && sudo npm install grunt-cli && sudo npm install bower
                 - ./node_modules/bower/bin/bower install --allow-root
             build:
